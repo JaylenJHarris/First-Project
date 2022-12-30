@@ -6,7 +6,7 @@ body{
 p{
   margin-left: 5px;
 }
-.header{
+header{
   display: flex;
   justify-content: space-between;
   height: 60px;
@@ -16,7 +16,7 @@ p{
   font-size: 25px;
   color: rgb(255, 255, 255);
 }
-.header:hover{
+header:hover{
   cursor: pointer;
 }
 .left{
