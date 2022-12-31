@@ -1,5 +1,30 @@
-h1{
-    margin: 0 auto;
-    text-align: center;
-    font-size: 500px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-container{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 10px 16px;
+}
+.nav-left{
+    display: flex;
+}
+li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-left{
+    
+}
+.nav-links{
+    color: #fff;
+    text-decoration: none;
 }
